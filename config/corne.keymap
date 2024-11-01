@@ -121,11 +121,6 @@
             key-positions = <2 14>;
         };
 
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <26 14>;
-        };
-
         copy {
             bindings = <&kp K_COPY>;
             key-positions = <28 27>;
@@ -141,34 +136,9 @@
             key-positions = <8 20>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
-            key-positions = <32 20>;
-        };
-
         plus {
             bindings = <&kp PLUS>;
             key-positions = <7 19>;
-        };
-
-        minus {
-            bindings = <&kp KP_MINUS>;
-            key-positions = <31 19>;
-        };
-
-        underscore {
-            bindings = <&kp UNDER>;
-            key-positions = <30 18>;
-        };
-
-        leftbrack {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <31 32>;
-        };
-
-        rightbrack {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <33 32>;
         };
 
         para-less {
@@ -179,6 +149,66 @@
         para-great {
             bindings = <&paragreat>;
             key-positions = <20 21>;
+        };
+
+        one {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <24 12 12 24>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <13 25>;
+        };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <14 26>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <15 27>;
+        };
+
+        five {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <16 28>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <19 31>;
+        };
+
+        seven {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <20 32>;
+        };
+
+        eight {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <21 33>;
+        };
+
+        nine {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <22 34>;
+        };
+
+        zero {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <23 35>;
+        };
+
+        lbracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <17 29>;
+        };
+
+        rbracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 30>;
         };
     };
 
@@ -214,10 +244,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp N1  &kp N2    &kp N3       &kp N4           &kp N5           &kp N6   &kp N7        &kp N8        &kp N9        &kp N0  &trans
-&caps_word  &trans  &trans    &kp UP_ARROW  &browsertab      &kp PAGE_UP      &kp N0   &kp N4  &kp N5        &kp N6  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans   &kp N1  &kp N2  &kp N3  &trans  &trans
-                          &kp LGUI      &trans           &kp SPACE        &kp RET  &trans        &trans
+&trans      &kp N1  &kp N2    &kp N3        &kp N4           &kp N5           &kp N6   &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&caps_word  &trans  &trans    &kp UP_ARROW  &browsertab      &kp PAGE_UP      &kp N0   &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans      &trans  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans   &kp N1  &kp N2  &kp N3  &trans  &trans
+                              &kp LGUI      &trans           &kp SPACE        &kp RET  &trans  &trans
             >;
         };
 
